@@ -1,0 +1,171 @@
+body {
+    background: linear-gradient(135deg, #f9dada, #fbd5d5), url('https://www.transparenttextures.com/patterns/linen.png'); /* Gradiente e imagem de fundo */
+    background-size: cover; /* Ajusta o padrão para cobrir todo o fundo */
+    background-attachment: fixed; /* Faz com que o fundo não se mova com o scroll */
+    color: #333; /* Cor do texto principal */
+    font-family: 'Arial', sans-serif; /* Fonte do texto */
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Garante que o fundo cubra toda a altura da tela */
+}
+
+h1 {
+    font-family: 'Georgia', serif; /* Fonte elegante e romântica */
+    font-size: 48px; /* Tamanho grande para destaque */
+    color: #e74c3c; /* Cor suave em um tom de rosa avermelhado */
+    text-align: center; /* Centraliza o título */
+    margin: 20px 0; /* Margem ao redor do título */
+    padding: 10px; /* Espaçamento interno */
+    background: linear-gradient(135deg, rgba(255, 182, 193, 0.8), rgba(255, 105, 180, 0.8)); /* Gradiente sutil como fundo do texto */
+   
+    border-bottom: 4px solid #f8c6c6; /* Linha inferior suave */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra leve ao redor do título */
+    transition: color 0.3s, box-shadow 0.3s; /* Transições suaves */
+}
+
+h1:hover {
+    color: #f39c12; /* Altera a cor ao passar o mouse */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Intensifica a sombra ao passar o mouse */
+}
+
+
+
+.textu{
+
+    font-family: 'Arial', sans-serif; /* Fonte do título */
+            font-size: 24px; /* Tamanho da fonte */
+            color: #2c3e50; /* Cor do texto */
+            margin: 20px 0; /* Margem ao redor do título */
+            text-align: center; /* Alinhamento centralizado */
+            padding: 10px; /* Espaçamento interno */
+            border-bottom: 2px solid #3498db; /* Linha inferior com cor do link */
+            transition: color 0.3s, border-color 0.3s; /* Transições suaves */
+
+
+}
+
+.linku{
+
+    color: #3498db; 
+            text-decoration: none; 
+            font-size: 16px; 
+            padding: 8px 16px;
+            border-radius: 4px; 
+            transition: background-color 0.3s, color 0.3s; 
+
+}
+
+.botao{
+
+    background-color: #4CAF50; 
+            border: none; 
+            color: white; 
+            padding: 15px 32px; 
+            text-align: center; 
+            text-decoration: none; 
+            display: inline-block; 
+            font-size: 16px; 
+            margin: 4px 2px; 
+            cursor: pointer;
+            border-radius: 12px; 
+            transition: background-color 0.3s; 
+
+}
+
+.input{
+
+    width: calc(100% - 20px); 
+    padding: 10px; 
+    margin-bottom: 20px;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+  /* Estilo do carrossel de fotos */
+  .carrossel-fotos {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.carrossel-fotos img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.carrossel-fotos .slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carrossel-fotos .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carrossel-fotos .navegacao {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.carrossel-fotos .navegacao button {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carrossel-videos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.carrossel-videos .video-thumb {
+    width: 150px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.carrossel-videos .video-thumb img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Estilo geral dos vídeos */
+.carrossel-videos .video-thumb:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+header {
+    background: linear-gradient(to right, #ff6f61, #ff9a9e); /* Gradiente de fundo romântico */
+    color: #fff; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    font-size: 28px; /* Tamanho da fonte */
+    font-family: 'Dancing Script', cursive; /* Fonte cursiva romântica */
+    font-weight: bold; /* Negrito */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra do cabeçalho */
+    margin-bottom: 20px; /* Espaçamento abaixo do cabeçalho */
+    position: relative; /* Necessário para posicionar pseudo-elementos */
+    overflow: hidden; /* Garante que o pseudo-elemento não ultrapasse os limites */
+}
